@@ -12,6 +12,7 @@ package javaapplication50;
 public class Cane implements Animale{
 
    private String pelo="biondo", nome;
+   private int codice=9;
 
     public Cane() {
 

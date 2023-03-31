@@ -13,10 +13,20 @@ public class Cane implements Animale{
 
    private String pelo="biondo", nome;
 
-   
+    public Cane() {
+
+    }
+
     public Cane(String nome) {
         this.nome = nome;
-    }
+        }
+
+   @Override
+   public void attacca(Persona p){
+       
+   }
+   
+    
     
     
    @Override

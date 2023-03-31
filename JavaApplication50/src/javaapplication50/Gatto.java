@@ -30,5 +30,8 @@ public class Gatto implements Animale {
     public void numeroZampe() {
         System.out.println("4");
     }
+    public void attacca(Persona p){
+       
+   }
     
 }

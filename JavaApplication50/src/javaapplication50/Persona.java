@@ -9,17 +9,6 @@ package javaapplication50;
  *
  * @author Emanuele Cardinale
  */
-interface Animale {
+class Persona {
     
-    public void verso();
-
-
-    public String getNome();
-
-    public void numeroZampe();
-
-
-    
-    public void attacca(Persona p);
-
 }

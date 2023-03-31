@@ -10,7 +10,7 @@ package javaapplication50;
  * @author Windows
  */
 public class Cane {
-
+   private String pelo="biondo";
     public Cane() {
     }
     

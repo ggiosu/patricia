@@ -10,16 +10,22 @@ package javaapplication50;
  * @author Windows
  */
 public class Cane implements Animale{
-   private String pelo="biondo";
+   private String pelo="biondo", nome;
    
    
-    public Cane() {
+    public Cane(String nome) {
+        this.nome = nome;
     }
     
     
    @Override
     public void verso(){
         System.out.println("bau");
+    }
+
+    @Override
+    public String getNome() {
+        return nome;
     }
     
 }

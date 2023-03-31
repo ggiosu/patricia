@@ -11,4 +11,5 @@ package javaapplication50;
  */
 interface Animale {
     public void verso();
+    public String getNome();
 }

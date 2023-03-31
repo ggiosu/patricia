@@ -10,13 +10,20 @@ package javaapplication50;
  * @author Emanuele Cardinale
  */
 public class Gatto implements Animale {
+    private String nome;
 
     @Override
     public void verso() {
         System.out.println("miao");
     }
 
-    public Gatto() {
+    public Gatto(String nome) {
+        this.nome = nome;
+    }
+    
+    @Override
+    public String getNome() {
+        return nome;
     }
     
 }

@@ -9,11 +9,13 @@ package javaapplication50;
  *
  * @author Windows
  */
-public class Cane {
+public class Cane implements Animale{
    private String pelo="biondo";
     public Cane() {
     }
     
+    
+   @Override
     public void verso(){
         System.out.println("bau");
     }

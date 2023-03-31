@@ -10,8 +10,10 @@ package javaapplication50;
  * @author Emanuele Cardinale
  */
 class Persona {
-
-    public Persona() {
+    private String nome;
+    public Persona(String nome) {
+        this.nome=nome;
     }
+    
     
 }

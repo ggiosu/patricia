@@ -10,6 +10,11 @@ package javaapplication50;
  * @author Emanuele Cardinale
  */
 interface Animale {
+    
     public void verso();
+
     public String getNome();
+
+    public void numeroZampe();
+
 }

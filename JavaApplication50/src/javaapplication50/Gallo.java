@@ -7,28 +7,25 @@ package javaapplication50;
 
 /**
  *
- * @author Emanuele Cardinale
+ * @author veron
  */
-public class Gatto implements Animale {
-    private String nome;
+public class Gallo implements Animale{
 
     @Override
     public void verso() {
-        System.out.println("miao");
-    }
-
-    public Gatto(String nome) {
-        this.nome = nome;
-    }
-    
-    @Override
-    public String getNome() {
-        return nome;
+        System.out.println("chicchirichi");
     }
 
     @Override
     public void numeroZampe() {
-        System.out.println("4");
+        System.out.println("2");
     }
+
+    @Override
+    public String getNome() {
+        return "Cocca";
+    }
+    
+    
     
 }

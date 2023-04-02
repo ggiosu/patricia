@@ -11,8 +11,10 @@ package javaapplication50;
  */
 class Persona {
     private String nome;
-    public Persona(String nome) {
+    private String cognome;
+    public Persona(String nome, String cognome) {
         this.nome=nome;
+        this.cognome=cognome;
     }
     
     

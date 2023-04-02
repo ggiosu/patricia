@@ -24,7 +24,7 @@ public class Cane implements Animale{
 
    @Override
    public void attacca(Persona p){
-       
+       System.out.println("Moccicato "+p.getNome() );
    }
    
     

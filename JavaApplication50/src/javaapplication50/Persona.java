@@ -16,6 +16,12 @@ class Persona {
         this.nome=nome;
         this.cognome=cognome;
     }
+
+    public String getNome() {
+        return nome;
+    }
+    
+     
     
     
 }

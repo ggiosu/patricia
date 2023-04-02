@@ -28,7 +28,7 @@ public class Gallo implements Animale{
 
     @Override
     public void attacca(Persona p) {
-        System.out.println("attaccato"); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("attaccato "+p.getNome()); //To change body of generated methods, choose Tools | Templates.
     }
     
     

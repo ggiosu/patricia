@@ -31,7 +31,7 @@ public class Gatto implements Animale {
         System.out.println("4");
     }
     public void attacca(Persona p){
-       
+        System.out.println("attaccato");
    }
     
 }
